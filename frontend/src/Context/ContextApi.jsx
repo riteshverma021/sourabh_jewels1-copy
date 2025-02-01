@@ -5,7 +5,7 @@ export const BaseURLContext = createContext();
 
 // Provider component to wrap the app
 export const BaseURLProvider = ({ children }) => {
-    const BASE_URL = "http://localhost:1002"; // Replace with your actual base URL
+    const BASE_URL = "https://sourabh-jewels1-copy.onrender.com"; // Replace with your actual base URL
 
     return (
         <BaseURLContext.Provider value={BASE_URL}>
